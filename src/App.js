@@ -1,13 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <>
-     <h1>first news app</h1>
-     <p>hi this is my very first news app </p>
-    </>
-  );
+import React, { Component } from 'react'
+
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <p>helllo this is my first react class based Component</p>
+      </div>
+    )
+  }
 }
 
-export default App;
