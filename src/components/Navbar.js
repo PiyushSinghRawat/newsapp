@@ -21,10 +21,14 @@ export class Navbar extends Component {
           <a className="nav-link " aria-current="page" href="/">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link " aria-current="page" href="/">About</a>
+          <a className="nav-link " aria-current="page" href="/">About us</a>
         </li>
+        <li className="nav-item">
+          <a className="nav-link " aria-current="page" href="/">news</a>
+        </li>
+  
       </ul>
-    
+      
     </div>
   </div>
 </nav> 
